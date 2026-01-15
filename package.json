@@ -1,0 +1,20 @@
+{
+  "name": "signal-harbor",
+  "version": "1.0.2",
+  "private": true,
+  "license": "MIT-0",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/SignalHarbor.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "@base/node": "latest",
+    "base-web": "latest",
+    "viem": "latest",
+    "ethers": "latest",
+    "web3": "latest",
+    "axios": "latest"
+  }
+}
